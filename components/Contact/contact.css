@@ -1,0 +1,60 @@
+.main-Contact{
+    width:100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:gray;
+    height:40rem;
+}
+.main1-Contact{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap:2rem;
+ 
+}
+.main1-Contact1{
+    padding: 2rem;
+    gap:2rem;
+    background-color: rgb(224, 222, 222);
+    border-radius: 10px;
+   }
+.main1-Contact1 > p:first-child{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-bottom: 1rem;
+   }
+.main1-Contact1> p{
+    text-align: center;
+    font-weight: bolder;
+    font-size:large;
+    margin-bottom: 1rem;
+  
+   }  
+.main1-Contact1> div{
+   display: flex;
+   padding: 1rem;
+   align-items: center;
+   
+}
+.main1-Contact1> div > .fontAwesomeIcon{
+    font-size: x-large;
+ }
+.main1-Contact1> div >p{
+    margin-inline: 10px;
+ }
+.main1-Contact2{
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+ align-items: center;
+row-gap: 3rem;
+}
+.main1-Contact2> .input-contact{
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+     border: 2px solid rgb(224, 221, 221);
+    border-radius : 10px;
+}

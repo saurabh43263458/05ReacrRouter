@@ -1,0 +1,37 @@
+.user-main{
+  background-color: white;
+  height: 82vh;
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-container{
+    position: relative;
+    top:-2rem;
+    color:black;
+ width:90%;
+ display: flex;
+justify-content: center;
+ align-items: center;
+ gap:2rem;
+}
+
+.user-main-detail{
+    color: rgb(111, 109, 109);
+    margin-inline: 2rem;
+
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: bolder;
+     
+}
+.user-img{
+    border-radius: 50%;
+    border: 6px solid rgb(132, 13, 13);
+}
+.user-img-div{
+    padding: 1rem;
+    border-radius: 50%;
+    border: 6px solid red;
+}

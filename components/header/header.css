@@ -1,0 +1,42 @@
+body,html{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+   background-color: rgb(255, 255, 255);
+   width:100vw;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 20vh;
+   text-decoration: none;
+}
+
+.nav{
+    position: relative;
+    top:1rem;
+    height:5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   width:80%;
+   border:2px solid rgb(240, 240, 250);
+   border-radius: 20px;
+}
+.main3{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    margin-inline: auto;
+}
+
+.login-get{
+    margin-inline:2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
